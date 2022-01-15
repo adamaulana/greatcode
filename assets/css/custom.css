@@ -1,0 +1,42 @@
+/* import font */
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/Gilroy-Extrabold.otf');
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url('../fonts/Gilroy-Light.otf');
+}
+:root
+{
+
+    --primary : #76B4EA;     
+    --secondary : #044271;
+}
+
+    /* career pages */
+    #head-cover{
+        min-height:100vh;        
+    }
+
+    #head-cover .head-swiper .head-swiper-slide{ 
+        min-height:100vh;
+    }
+
+    #head-cover .head-swiper .head-swiper-slide .backdrop{ 
+        min-height:100vh;
+        padding:0.1px;
+        padding-left:10%;
+        padding-right:10%;
+        width:100%;
+        background-color:rgba(255,255,255,0.5);
+    }
+
+    #head-cover .head-swiper .head-swiper-slide h3{
+        font-size: 46px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: var(--secondary);
+        margin-top: 19%;
+        width: 86%;
+    }
