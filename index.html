@@ -107,7 +107,56 @@
            </div>
          </section>      
          
+         <section id="about-us">
+           <div class="row">
+             <div class="col-md-5  col-12 cover">
+               <div class="backdrop-about"></div>
+             </div>
+             <div class="col-md-7 desc col-12">
+                <div class="badge-desc">
+                  Tentang Kami
+                </div>
+
+               <h3>
+                 Introducing Greatcode.id
+               </h3>
+               <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+              </p>
+
+             </div>
+           </div>
+         </section>
       
+         <section id="our-partner">
+           <div class="title-section">
+             <center>
+             Partner Kami
+             <div class="line-title"></div>
+           </center>
+           </div>
+           <div class="partner-slide">
+             <div class="swiper-wrapper">
+               <div class="swiper-slide"><img src="assets/images/partner1.png"></div>
+               <div class="swiper-slide"><img src="assets/images/partner2.png"></div>
+               <div class="swiper-slide"><img src="assets/images/partner3.png"></div>
+               <div class="swiper-slide"><img src="assets/images/partner4.png"></div>
+             </div>
+           </div>
+         </section>
+
+          <section id="our-partner">
+           <div class="title-section">
+             <center>
+             Produk Kami
+             <div class="line-title"></div>
+           </center>           
+         </section>
     </main>
     <!-- end of content -->
 
@@ -129,6 +178,24 @@
         direction: 'horizontal',
         loop: true,
         slidesPerView: 1,          
+        autoplay: {
+          delay: 2000,
+        },        
+        pagination: {
+          clickable : 'true',
+          el    : '.swiper-pagination',
+          type  : 'bullets',
+        }
+
+      });
+    </script>
+
+        <script>
+      const swiper_partner = new Swiper('.partner-slide', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 4,          
         autoplay: {
           delay: 2000,
         },        

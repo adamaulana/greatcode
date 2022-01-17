@@ -14,7 +14,7 @@
     --secondary : #044271;
 }
 
-    /* career pages */
+    /* head cover */
     #head-cover{
         min-height:100vh;        
     }
@@ -40,3 +40,74 @@
         margin-top: 19%;
         width: 86%;
     }
+
+    /* #about us section */
+    #about-us{
+        min-height:94vh;   
+        padding-top:7%;     
+        background-color: #ffff;
+    }
+
+    #about-us .cover{
+        padding:0px;
+        min-height:69vh;
+        background:url('../images/back1.jfif');
+        background-size:cover;        
+    }
+ 
+    #about-us .cover .backdrop-about{
+        min-height:69vh;
+        width:100%;
+        margin:0px;
+        background-image:linear-gradient(to left, rgba(255, 255, 255, 1) , rgba(255, 255, 255, 0));          
+    }
+
+    #about-us .desc {
+        padding-left:5%;
+        padding-right:5%;
+    }
+    #about-us .desc h3{
+        width: 95%;
+        font-size: 64px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: var(--secondary);
+    }
+
+    #about-us .desc p{
+        width: 95%;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;
+        color: #767676;
+    }
+
+    #about-us .badge-desc{
+        text-align: center;
+        background-color: var(--secondary);
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: #ffff;
+        border-radius:10px;        
+        width: 170px;
+        padding: 10px 20px;
+        margin-bottom: 35px;
+    } 
+
+
+    /*our partner*/
+    #our-partner{
+        min-height:50vh;        
+        padding-left:10%;        
+        padding-right:10%;        
+    } 
+
+    #our-partner .partner-slide{
+        margin-top:8%;
+        overflow-x:hidden;
+    }
+
+    #our-partner .partner-slide img{
+        width:184px;
+    }
+
