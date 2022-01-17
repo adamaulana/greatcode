@@ -99,7 +99,7 @@
     #our-partner{
         min-height:50vh;        
         padding-left:10%;        
-        padding-right:10%;        
+        padding-right:10%;            
     } 
 
     #our-partner .partner-slide{
@@ -111,3 +111,42 @@
         width:184px;
     }
 
+    /*section our product*/
+    #our-product{
+        min-height:50vh;        
+        padding-left:10%;        
+        padding-right:10%;  
+        padding-top:10%;  
+        background-color: #f9f9f9;
+    }
+
+    #our-product .product-slide .swiper-slide{
+        min-height:100px;
+        padding:20px;
+    } 
+    #our-product .card-produk{
+        width:100%;        
+        min-height:400px;
+        background-color:#fff;
+        padding:0px;
+    }
+
+    
+    #our-product .card-produk .thumbnail{
+        height:150px;
+    }
+
+    #our-product .card-produk .logo-product{
+        width:80%;
+    }
+
+    #our-product .card-produk .desc-product{
+        font-size: 15px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: #404040;
+        /* width: 86%; */
+        text-align: center;
+        margin-top: 36px;
+
+    }

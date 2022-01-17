@@ -150,12 +150,25 @@
            </div>
          </section>
 
-          <section id="our-partner">
+          <section id="our-product">
            <div class="title-section">
              <center>
              Produk Kami
              <div class="line-title"></div>
            </center>           
+           <div class="product-slide">
+             <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                 <div class="card-produk">
+                  <div class="thumbnail" style="background:url('assets/images/back1.jfif');background-size:cover;"></div>
+                  <div class="logo-product"></div>
+                  <div class="desc-product">
+                    Solusi bagi pemerintah daerah dalam memberikan layanan publik digital yang terintegrasi.
+                  </div>
+                 </div>
+               </div>
+             </div>
+           </div>           
          </section>
     </main>
     <!-- end of content -->
@@ -196,6 +209,24 @@
         direction: 'horizontal',
         loop: true,
         slidesPerView: 4,          
+        autoplay: {
+          delay: 2000,
+        },        
+        pagination: {
+          clickable : 'true',
+          el    : '.swiper-pagination',
+          type  : 'bullets',
+        }
+
+      });
+    </script>
+
+    <script>
+      const swiper_product = new Swiper('.product-slide', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 3,          
         autoplay: {
           delay: 2000,
         },        
