@@ -98,8 +98,7 @@
     /*our partner*/
     #our-partner{
         min-height:50vh;        
-        padding-left:10%;        
-        padding-right:10%;            
+        padding: 10%       
     } 
 
     #our-partner .partner-slide{
@@ -114,21 +113,20 @@
     /*section our product*/
     #our-product{
         min-height:50vh;        
-        padding-left:10%;        
-        padding-right:10%;  
-        padding-top:10%;  
+        padding:12% 8%;  
         background-color: #f9f9f9;
     }
+    #our-product .product-group{
+        margin-top:6%;
+    }
 
-    #our-product .product-slide .swiper-slide{
-        min-height:100px;
-        padding:20px;
-    } 
     #our-product .card-produk{
         width:100%;        
-        min-height:400px;
+        min-height:150px;
         background-color:#fff;
         padding:0px;
+        padding-bottom:41px;
+        box-shadow: 0px 0px 9px #888888;
     }
 
     
@@ -138,15 +136,22 @@
 
     #our-product .card-produk .logo-product{
         width:80%;
+        margin-top:-29px;
+        padding:10px;
+        text-align:center;
+        background-color:#fff;
+        border-radius:10px;
+    }
+    #our-product .card-produk .logo-product img{
+        width:85%;
     }
 
     #our-product .card-produk .desc-product{
-        font-size: 15px;
+        font-size: 12px;
         font-family: 'Poppins';
         font-weight: 400;
-        color: #404040;
-        /* width: 86%; */
+        color: #404040;         
         text-align: center;
-        margin-top: 36px;
-
+        margin-top: 5px;
+        padding:0px 20px;
     }
