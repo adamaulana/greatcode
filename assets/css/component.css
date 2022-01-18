@@ -59,10 +59,9 @@
 
 /* basic navbar */
 #myNavbar{
-    padding: 20px;
+    padding: 7px;
     padding-left: 7%;
-    padding-right: 10%;
-    padding-top: 52px;    
+    padding-right: 10%;    
 }
 
 #myNavbar{
@@ -102,10 +101,9 @@
         font-family: 'Poppins';
         font-weight: 400;
         background-color: white;
-        padding: 20px;
+        padding: 7px;
         padding-left: 7%;
-        padding-right: 10%;
-        padding-top: 20px;
+        padding-right: 10%;        
         transition-duration:0.5s;
         visibility:hidden;}
         #extendNavbar .navbar-toggle{

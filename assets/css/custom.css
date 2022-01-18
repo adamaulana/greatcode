@@ -98,7 +98,7 @@
     /*our partner*/
     #our-partner{
         min-height:50vh;        
-        padding: 10%       
+        padding: 5% 10%       
     } 
 
     #our-partner .partner-slide{
@@ -113,7 +113,7 @@
     /*section our product*/
     #our-product{
         min-height:50vh;        
-        padding:12% 8%;  
+        padding:6% 8%;  
         background-color: #f9f9f9;
     }
     #our-product .product-group{
