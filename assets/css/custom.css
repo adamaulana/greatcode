@@ -117,7 +117,7 @@
         background-color: #f9f9f9;
     }
     #our-product .product-group{
-        margin-top:6%;
+        margin-top:2%;
     }
 
     #our-product .card-produk{
@@ -154,4 +154,21 @@
         text-align: center;
         margin-top: 5px;
         padding:0px 20px;
+    }
+
+    #our-product  a{
+        text-decoration:none;
+    }
+
+    /*sectioon vision*/
+    #vision{
+        padding:5% 10%;
+    }
+
+    #vision h4{
+        font-size: 32px;
+        font-family: 'Poppins';
+        font-weight: 700;                    
+        margin-top: 10px;
+        color: var(--secondary);
     }
