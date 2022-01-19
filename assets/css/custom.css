@@ -44,7 +44,7 @@
     /* #about us section */
     #about-us{
         min-height:94vh;   
-        padding-top:7%;     
+        padding-top:0px;     
         background-color: #ffff;
     }
 
@@ -225,8 +225,45 @@
     }
 
     /*section separator*/
-    #separator{
-        margin-top:-100px;
-        min-height:100px;
-        background-image:linear-gradient(to top, rgba(255, 255, 255, 1) , rgba(255, 255, 255, 0));          
+    #separator{    
+        width: 100%;
+        height: 100px;
+        /* background-color: red; */
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 1) , rgba(255, 255, 255, 0));
+        position: relative;
+        top: -99px;
+        z-index: 100;
      }
+
+     /*section footer*/
+     #footer{
+        min-height:30vh;
+        background-color: var(--secondary);
+        padding:5% 10%;
+     }
+
+     #footer .address{
+        color:white;
+        font-size:'Poppins';
+        font-weight:400;
+        font-size:14px;  
+     }
+
+    #footer .notel{
+        color:white;
+        font-size:'Poppins';
+        font-weight:400;
+        font-size:14px;
+        margin-top:20px;  
+     }
+
+     #footer .sosial-media .btn-sosmed{
+        width:25px;
+        height:25px;
+        padding:10px;
+        background-color:white;
+        color:var(--secondary);
+        border-radius:100%;
+        font-size:14px;
+     }
+
