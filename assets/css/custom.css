@@ -114,7 +114,7 @@
     #our-product{
         min-height:50vh;        
         padding:6% 8%;  
-        background-color: #f9f9f9;
+        background-color: #ffff;
     }
     #our-product .product-group{
         margin-top:2%;
@@ -162,7 +162,7 @@
 
     /*sectioon vision*/
     #vision{
-        padding:5% 10%;
+        padding:0% 10%;
     }
 
     #vision h4{
@@ -172,3 +172,61 @@
         margin-top: 10px;
         color: var(--secondary);
     }
+
+    /*section berita*/
+    #berita{
+        padding:5% 10%;   
+    }
+
+    #berita .row-berita{
+        margin-bottom:4%;
+    }
+
+    #berita .row-berita h5{
+        font-family: 'Poppins'
+        font-size:15px;
+        font-weight:700;
+        color: var(--secondary);
+        margin:0px;
+        margin-top:10px;
+    }
+
+    #berita .row-berita .time{
+        font-family: 'Poppins';
+        font-size:10px;
+        font-weight:400;
+        color: #545454;
+        margin-top:4px;
+    }
+
+    #berita .row-berita .highlight{
+        font-family: 'Poppins';
+        font-size:14px;
+        font-weight:400;
+        color: #545454;
+        margin-top:4px;
+    }
+
+    #berita .row-berita .thumbnail-berita{
+        width:100%;
+        min-height:200px;
+        border-radius:10px;
+    }
+
+    #berita .row-berita .berita-selengkapnya{
+        text-decoration:none;
+        font-family: 'Poppins';
+        font-size:10px;
+        color: #fff;
+        font-weight:400;
+        background-color:var(--secondary);
+        padding:5px 20px;
+        border-radius:2px;
+    }
+
+    /*section separator*/
+    #separator{
+        margin-top:-100px;
+        min-height:100px;
+        background-image:linear-gradient(to top, rgba(255, 255, 255, 1) , rgba(255, 255, 255, 0));          
+     }
