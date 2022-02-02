@@ -300,3 +300,93 @@
         font-size:12px;  
      }
 
+    
+    /*head-contact*/
+    #head-contact{
+        min-height:70vh;
+        background-image: url('../images/back1.jfif');
+        background-size:cover;        
+    }
+
+    #head-contact .head-swiper .head-swiper-slide{ 
+        height:100vh;
+    }
+
+    #head-contact .backdrop{ 
+        min-height:70vh;
+        padding-left:10%;        
+        width:100%;
+        background-color:rgba(255,255,255,0.7);
+    }
+
+    #head-contact h3{
+        margin-top:36%;
+        text-decoration:none;
+        font-family: 'Poppins';
+        color:var(--secondary);
+        font-weight: 700;        
+        font-size:42px;    
+    }
+
+    #head-contact p{
+        width:70%;
+    }
+
+    #form-contact{
+        padding:50px 10%;
+    } 
+
+    #form-contact .box-contact h3{
+        font-family: 'Poppins';
+        color:var(--secondary);
+        font-weight: 700;        
+        font-size:42px;
+        margin-bottom:0px;
+    }
+
+    #form-contact .map h3{
+        font-family: 'Poppins';
+        color:var(--secondary);
+        font-weight: 700;        
+        font-size:42px;
+    }
+    #form-contact .map p{
+        font-family: 'Poppins';
+        color:#5a5a5a;
+        font-weight: 400;        
+        font-size:13px;   
+        margin-bottom:4px;
+    }
+
+    #form-contact .map a{
+        font-family: 'Poppins';
+        color:var(--secondary);
+        font-weight: 400;        
+        font-size:13px;
+        text-decoration:none;        
+    }
+
+    #form-contact .map iframe{
+        width:70%;
+        height:200px;
+    }
+
+    #form-contact .box-contact{
+        margin-top: -56%;
+        padding: 35px 60px;
+        background-color: rgb(255,255,255);
+    }
+
+    #form-contact .box-contact .bt-kirim{
+        padding:10px 20px;
+        width:100%;
+        background-color:var(--secondary);
+        text-align: center;
+        font-family: 'Poppins';
+        color:white;
+        font-weight: 400;        
+        font-size:13px;
+        text-decoration:none;
+        border:0px;
+        border-radius:10; 
+    }
