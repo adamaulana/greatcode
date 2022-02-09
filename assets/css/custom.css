@@ -390,3 +390,15 @@
         border:0px;
         border-radius:10; 
     }
+
+    #form-contact .mapouter{
+        position:relative;
+        height:300px;
+        width:600px;
+    }                      
+    #form-contact .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:200px;
+        width:600px;
+    }

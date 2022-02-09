@@ -28,7 +28,7 @@
           <a class="navbar-brand" href="#">
               <img src="assets/images/logo1.png" alt="Orijin Plus Logo">
           </a>
-          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="fa fa-bars"></span>
           </button>
           <div class="collapse navbar-collapse justirify-content-end" id="navbarCollapse">
@@ -57,7 +57,7 @@
           <a class="navbar-brand" href="#">
               <img src="assets/images/logo1.png" alt="Orijin Plus Logo">
           </a>
-          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="fa fa-bars"></span>
           </button>
           <div class="collapse navbar-collapse justirify-content-end" id="navbarCollapse">
@@ -106,20 +106,16 @@
               </div>
            </div>
          </section>      
-         
+        
         <section id="separator">
           
         </section>
          <section id="about-us">
            <div class="row">
-             <div class="col-md-5  col-12 cover">
+             <div class="col-md-5  col-12 cover d-none d-sm-block">
                <div class="backdrop-about"></div>
-             </div>
+             </div> 
              <div class="col-md-7 desc col-12">
-                <div class="badge-desc">
-                  Tentang Kami
-                </div>
-
                <h3>
                  Introducing Greatcode.id
                </h3>
@@ -342,7 +338,11 @@
              </div>
            </div>
 
-          <div class="row row-berita">             
+          <div class="row row-berita">   
+            <div class="col-md-6 d-block d-sm-none">
+              <div class="thumbnail-berita" style="background:url('assets/images/app2.jpg'); background-size:cover"></div>
+            </div>
+
              <div class="col-md-6">
                <h5>Penggunaan IoT Dalam E Goverment</h5>
                <p class="time">12Januari 2021 | Arif Ragil Pamungkas</p>
@@ -357,7 +357,7 @@
                </a>
              </div>
 
-             <div class="col-md-6">
+             <div class="col-md-6 d-none d-sm-block d-md-block">
                <div class="thumbnail-berita" style="background:url('assets/images/app2.jpg'); background-size:cover"></div>
              </div>
 
@@ -455,8 +455,25 @@
           clickable : 'true',
           el    : '.swiper-pagination',
           type  : 'bullets',
-        }
-
+        },
+          // Responsive breakpoints
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 30
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 40
+          }
+        }    
       });
     </script>
 
